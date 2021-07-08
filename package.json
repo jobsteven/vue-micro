@@ -7,6 +7,15 @@
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
+  "keywords": [
+    "micro",
+    "microservice",
+    "vue microservice",
+    "micro frontends",
+    "micro application",
+    "application splitting",
+    "Micro-frontend framework"
+  ],
   "dependencies": {
     "vue": "^3.0.5",
     "vue-router": "^4.0.10"

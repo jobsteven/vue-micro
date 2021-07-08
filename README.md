@@ -2,7 +2,7 @@
 
 A tiny library to split large vue applications.
 
-![vue-micro](https://link)
+![vue-micro](https://raw.githubusercontent.com/jobsteven/vue-micro/master/public/vue-micro-demo.gif)
 
 ## features
 

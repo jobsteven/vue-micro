@@ -2,6 +2,8 @@
 
 A tiny library to split large vue applications.
 
+![vue-micro](https://link)
+
 ## features
 
 - Accessible for vue ecosystem. `vue 3.x` and `vue-router 4.x` are required.

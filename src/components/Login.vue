@@ -1,5 +1,5 @@
 <template>
-  <span>登录</span>
+  <span>login content</span>
 </template>
 
 <script>

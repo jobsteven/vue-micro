@@ -1,8 +1,8 @@
 <template>
-  <span>课件系统</span>
+  <span>micro-app-02</span><br />
   <ol>
-    <router-link :to="{ name: 'menu1' }" append>菜单一</router-link>
-    <router-link :to="{ name: 'menu2' }">菜单一</router-link>
+    <router-link :to="{ name: 'menu1' }" append>menu01</router-link>
+    <router-link :to="{ name: 'menu2' }">menu02</router-link>
   </ol>
   <router-view></router-view>
 </template>

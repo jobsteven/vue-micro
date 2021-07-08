@@ -1,4 +1,4 @@
-<template>A页面</template>
+<template>page A</template>
 
 <script>
 export default {};

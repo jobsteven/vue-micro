@@ -1,5 +1,5 @@
 <template>
-  <span>注册</span>
+  <span>sign up content</span>
 </template>
 
 <script>

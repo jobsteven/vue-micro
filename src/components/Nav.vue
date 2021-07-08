@@ -1,13 +1,13 @@
 <template>
-  <h3>业务平台</h3>
+  <h3>biz platfrom</h3>
   <div class="menu">
-    <router-link to="/login">登录</router-link>
-    <router-link :to="{ name: 'signup' }">注册</router-link>
+    <router-link to="/login">login</router-link>
+    <router-link :to="{ name: 'signup' }">signup</router-link>
     <router-link :to="{ name: 'micro', params: { micro_id: 'teaching_sys' } }"
-      >教师系统</router-link
+      >micro-app-01</router-link
     >
     <router-link :to="{ name: 'micro', params: { micro_id: 'courseware_sys' } }"
-      >课件系统</router-link
+      >micro-app-02</router-link
     >
   </div>
 </template>

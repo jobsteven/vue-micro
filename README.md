@@ -16,7 +16,10 @@ A tiny library to split large vue applications.
 ```javascript
 npm install vue-micro -S
 
+//vue-router
 import router from './router';
+
+// import micro library
 import micro from './micro';
 
 ```
@@ -41,4 +44,15 @@ micro(router, {
 
 ```javascript
 micro(router, {}, '/another_mounting_point/');
+```
+
+#### mounting micro application's routes
+
+```javascript
+import app_routes from './application.routes.js';
+
+export default {
+  id: 'applicationId',
+  routes: app_routes
+};
 ```

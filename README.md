@@ -46,13 +46,13 @@ micro(router, {
 micro(router, {}, '/another_mounting_point/');
 ```
 
-#### mounting micro application's routes
+#### Micro application Conventions
 
 ```javascript
 import app_routes from './application.routes.js';
 
 export default {
-  id: 'applicationId',
-  routes: app_routes
+  id: 'applicationId', // application Id
+  routes: app_routes // application routes
 };
 ```

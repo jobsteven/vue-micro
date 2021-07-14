@@ -40,13 +40,13 @@ micro(router, {
 })
 ```
 
-#### mounting point, default: `/micro/`
+## mounting point, default: `/micro/`
 
 ```javascript
 micro(router, {}, '/another_mounting_point/');
 ```
 
-#### Micro application Conventions
+## Micro application Conventions
 
 ```javascript
 import app_routes from './application.routes.js';

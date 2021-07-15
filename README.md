@@ -53,6 +53,16 @@ import app_routes from './application.routes.js';
 
 export default {
   id: 'applicationId', // application Id
-  routes: app_routes // application routes
+  routes: app_routes, // application routes
+  methods: {
+    clickHandler() {
+      console.log('done');
+    }
+  },
+  data() {
+    return {
+      foo: 'foovalue'
+    };
+  }
 };
 ```

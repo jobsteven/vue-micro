@@ -63,6 +63,9 @@ export default {
     return {
       foo: 'foovalue'
     };
+  },
+  render() {
+    return h('span', 'Iam a micro application');
   }
 };
 ```
